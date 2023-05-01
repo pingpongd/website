@@ -1,0 +1,35 @@
+body {background-color: rgb(152, 32, 208);}
+p {color:rgb(28, 12, 146); font-size:150%}
+li {color:rgb(222, 203, 79); font-size:150%}
+ul.partsOfADuck {
+    font-size:120%;
+    color:blue;
+    font-family:fantasy
+}
+a {font-size:120%}
+img {width:300px}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #2da6da; /* 4 */
+}
+nav h2 {
+    margin: 0px 0px;
+    color:rgb(34, 200, 84); font-size:250%
+}
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+    
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+    color:rgb(39, 0, 155); font-size:150%
+}
+
+table, th, td {
+    border: 1px solid;
+}
